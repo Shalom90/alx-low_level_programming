@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
-  * stdio.h - Header file for library functions
   * main - Execution starts and end here
   * Return: Returns 0 if no error occurs else return a non-zero value
   */
