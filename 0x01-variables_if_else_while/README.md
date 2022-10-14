@@ -1,12 +1,10 @@
-This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
-    You can find the source code here
-    The variable n will store a different value every time you run this program
-    You don’t have to understand what rand, srand, and RAND_MAX do. Please do not touch this code
-    The output of the program should be:
-        The string Last digit of, followed by
-        n, followed by
-        the string is, followed by
-            if the last digit of n is greater than 5: the string and is greater than 5
-            if the last digit of n is 0: the string and is 0
-            if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
-        followed by a new line
+Write a program that prints all possible different combinations of two digits.
+    Numbers must be separated by ,, followed by a space
+    The two digits must be different
+    01 and 10 are considered the same combination of the two digits 0 and 1
+    Print only the smallest combination of two digits
+    Numbers should be printed in ascending order, with two digits
+    You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+    You can only use putchar five times maximum in your code
+    You are not allowed to use any variable of type char
+    All your code should be in the main function
