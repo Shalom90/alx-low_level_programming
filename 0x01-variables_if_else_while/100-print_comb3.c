@@ -9,26 +9,20 @@ int main(void)
 {
 	int x, y;
 
-	x = 48;
-	y = 48;
-
-	while (y < 58)
+	for (x = 0; x < 9; x++)
 	{
-		x = 48;
-		while (x < 58)
+		for (y = x + 1; y < 10; y++)
 		{
-			putchar(y);
-			putchar(x);
-			if (x == 57 && y == 57)
-			{
-				break;
+			putchar((x % 10) + '0');
+			putchar((y % 10) + '0');
 
-			}
+			if (x == 8 && y == 9)
+				continue;
 
 			putchar(',');
 			putchar(' ');
 		}
-		y++;
+
 	}
 		putchar('\n');
 		return (0);
