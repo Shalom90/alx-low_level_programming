@@ -9,9 +9,9 @@ int print_last_digit(int x)
 {
 	int last_dig;
 
-	last dig = x % 10;
+	last_dig = x % 10;
 
-	if (last dig < 0)
+	if (last_dig < 0)
 	{
 		last_dig = last_dig * -1;
 	}
