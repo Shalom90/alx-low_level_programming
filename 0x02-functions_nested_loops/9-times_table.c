@@ -4,7 +4,7 @@
   * Return: void returns
   */
 
-void times_table(void);
+void times_table(void)
 {
 	int x, y, times;
 
