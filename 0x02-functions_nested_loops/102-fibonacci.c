@@ -13,7 +13,7 @@ int main(void)
 
 	printf("%ld, %ld", num1, num2);
 
-	for (a = 0; a < 48, a++)
+	for (a = 0; a < 48; a++)
 	{
 		sum = num1 + num2;
 		printf(", %ld", sum);
