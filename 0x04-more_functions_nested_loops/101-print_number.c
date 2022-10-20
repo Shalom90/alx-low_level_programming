@@ -8,17 +8,28 @@
 
 void print_number(int n)
 {
-	unsigned int a = n;
+	unsigned int digit2, digit1 = n;
+	int a = 1;
 
 	if (n < 0)
+	{
+		_putchar('-');
+		digit1 = n * -1;
+	}
+	digit2 = digit1;
+	while (digit2 > 9)
+	{
+		a *= 10;
+		digit2 = digit2 / 10;
+	}
+	while (a >= 1)
+	{
+		digit2 = digit1 % a;
+		digit1 /= a;
 
-	{
-		_putchar(45);
-		a = -a;
+		_putchar(digit1 + '0');
+		digit1 = digit2;
+
+		a /= 10;
 	}
-	else if ((a / 10) > 0)
-	{
-		print_number(a / 10);
-	}
-	_putchar((a % 10) + 48);
 }
