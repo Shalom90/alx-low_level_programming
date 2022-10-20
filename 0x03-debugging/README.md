@@ -1,1 +1,1 @@
-This is a debugging task to test if an integer is positive or negative and returns 0.
+Debugging task 1 to comment out the part of the code causing the output to go into an infinite loop.
