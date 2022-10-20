@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
   * print_number- function which prints an integer
   * using only _putchar function to print
@@ -8,16 +8,21 @@
 
 void print_number(int n)
 {
-	unsigned int digit = n;
+	unsigned int a1;
 
 	if (n < 0)
 	{
-		_putchar('-);
-		digit = -digit;
-	}
-	if (digit > 9)
+		a1 = -n;
+		_putchar('-');
+	} else
 	{
-		print_number(digit / 10);
+		a1 = n;
 	}
-	_putchar(digit % 10 + '0');
+
+	if (a1 / 10)
+	{
+		print_number(a1 / 10);
+	}
+
+	_putchar((a1 % 10) + '0');
 }
