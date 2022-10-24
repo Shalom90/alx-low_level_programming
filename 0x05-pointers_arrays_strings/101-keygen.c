@@ -19,7 +19,7 @@ int main(void)
 	{
 		crack[x] = rand() % 78;
 		add += (crack[x] + '0');
-		putchar (crack[x] + '0');
+		putchar(crack[x] + '0');
 
 		if ((2772 - add) - '0' < 78)
 		{
