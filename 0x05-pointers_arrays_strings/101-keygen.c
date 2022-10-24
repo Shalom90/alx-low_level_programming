@@ -8,29 +8,20 @@
 
 int main(void)
 {
-	int crack[100];
-	int x, add, y;
-
-	add = 0;
+	int pass, add;
 
 	srand(time(NULL));
+	add = 0;
 
-	for (x = 0; x < 100; x++)
+	while (add <= 2645)
 	{
-		crack[x] = rand() % 78;
-		add += (crack[x] + '0');
-		putchar(crack[x] + '0');
+		pass = (rand() % 128);
+		add += pass;
+		printf("%c", pass);
 
-		if ((2772 - add) - '0' < 78)
-		{
-			y = 2772 - add - '0';
-
-			add += y;
-
-			puthcar(y + '0');
-
-			break;
-		}
 	}
+
+	printf("%c", 2772 - sum);
+
 	return (0);
 }
