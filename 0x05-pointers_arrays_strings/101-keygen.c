@@ -23,7 +23,7 @@ int main(void)
 
 		if ((2772 - add) - '0' < 78)
 		{
-			n = 2772 - add - '0';
+			y = 2772 - add - '0';
 
 			add += y;
 
