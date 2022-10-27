@@ -16,7 +16,7 @@ char *rot13(char *s)
 	{
 		for (y = 0; i[y] != '\0'\; y++)
 		{
-			if (s[x] = i[y])
+			if (s[x] == i[y])
 			{
 				s[x] = j[y];
 
