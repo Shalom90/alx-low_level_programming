@@ -10,3 +10,5 @@ _putchar.c
 100-realloc.c
 100-main.c
 100-realloc.out
+101-mul.c
+101-mul.out
