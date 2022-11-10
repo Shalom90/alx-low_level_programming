@@ -2,4 +2,4 @@ _putchar.c
 0-main.c
 0-malloc_checked.out
 1-main.c
-1-string_noncat.out
+1-string_nconcat.out
