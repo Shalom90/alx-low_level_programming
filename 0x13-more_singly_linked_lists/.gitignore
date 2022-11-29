@@ -23,3 +23,5 @@
 100-main.c
 100-reverse_listint.out
 101-print_listint_safe.out
+102-main.c
+102-free_listint_safe.out
