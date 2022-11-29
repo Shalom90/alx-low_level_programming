@@ -6,3 +6,5 @@
 2-add_nodeint.out
 3-main.c
 3-add_nodeint_end.out
+4-main.c
+4-free_listint.out
