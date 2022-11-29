@@ -25,3 +25,5 @@
 101-print_listint_safe.out
 102-main.c
 102-free_listint_safe.out
+103-main.c
+103-find_loop.out
