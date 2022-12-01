@@ -11,3 +11,5 @@ _putchar.c
 4-clear_bit.out
 5-main.c
 5-flip_bits.out
+100-main.c
+100-get_endianness.out
