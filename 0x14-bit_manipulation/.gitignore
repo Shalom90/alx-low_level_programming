@@ -5,3 +5,5 @@ _putchar.c
 1-print_binary.out
 2-main.c
 2-get_bit.out
+3-main.c
+3-set_bit.out
