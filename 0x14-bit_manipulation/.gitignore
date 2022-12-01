@@ -1,2 +1,5 @@
-o-main.c
+_putchar.c
+0-main.c
 0-binary_to_uint.out
+1-main.c
+1-print_binary.out
